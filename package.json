@@ -4,8 +4,7 @@
   "description": "puzzle luck api",
   "main": "server.js",
   "scripts": {
-    "start":"npm start",
-    "build": "npm run build"
+    "start": "node server.js"
   },
   "author": "Er. Abhishek Shah",
   "license": "ISC",
