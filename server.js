@@ -18,8 +18,8 @@ mongoose.connect(process.env.MONGODB_CONNECTION_STRING, {
 app.use(express.json());
 
 // Routes
-const usersRoutes = require('../routes/users');
-const puzzlesRoutes = require('../routes/puzzles');
+const usersRoutes = require('./routes/users');
+const puzzlesRoutes = require('./routes/puzzles');
 
 app.use('/api/users', usersRoutes);
 app.use('/api/puzzles', puzzlesRoutes);
